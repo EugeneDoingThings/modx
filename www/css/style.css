@@ -1,0 +1,549 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto.eot');
+    src: url('../fonts/Roboto Thin');
+    src: url('../fonts/Roboto-Thin');
+    src: url('../fonts/Robotothin.woff2') format('woff2'); src:url('../fonts/Robotothin.woff') format('woff'); src:url('../fonts/Robotothin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto Thin Italic');
+    src:url('../fonts/Roboto-ThinItalic'); src:url('../fonts/Robotothinitalic.woff2') format('woff2'); src:url('../fonts/Robotothinitalic.woff') format('woff'); src:url('../fonts/Robotothinitalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto Light');
+    src:url('../fonts/Roboto-Light');
+    src:url('../fonts/Robotolight.woff2') format('woff2'); src:url('../fonts/Robotolight.woff') format('woff'); src:url('../fonts/Robotolight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+.otstup_row{
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+.social_button ul{
+    display: block;
+    float: right;
+    list-style: none;
+}
+.social_button{
+    padding: 20px 0px 0px 0px;
+}
+.social_button ul li{
+    padding: 0 3px;
+    display: inline-block;
+    float: left;
+}
+.social_button ul li a i{
+    color: #697585;
+    font-size: 26px;
+}
+.social_button_person{
+    padding-left: 20px!important;
+}
+.menu_top{
+    background-color:white !important;
+    border-color: white!important;
+    
+}
+.menu_top img{
+    width: 250px;
+}
+.menu_top ul{
+    margin-top: 70px;
+}
+.menu_top ul li{
+    padding-left: 20px;
+}
+.menu_top ul li a{
+    font-family: 'Roboto';
+    padding-right: 0px;
+    color: #2d6747!important;
+    font-size: 22px;
+}
+.news_top{
+    max-height: 50vh;
+}
+h2{
+    font-family: 'Roboto';
+}
+main{
+    padding-top: 30px;
+}
+img{
+    width: 100%;
+}
+.main_opis a{
+    max-width: 50vh;
+    color: #2d6747!important;
+    padding: 6px;
+    display: block;
+    border: 1px solid #2d6747;
+    text-align: center;
+    height: 36px;
+    text-decoration: none!important;
+}
+.main_news_right{
+    border-left: 1px solid #2d6747;
+}
+.news-right-mini{
+    padding: 20px 0px 0px 0px;
+}
+
+
+
+
+/*Навигация ССНТО ПРОЕКТЫ СОБЫТИЯ*/
+.nav_main_razdel{
+    padding: 100px 0px 100px 0px;
+}
+.navigate_razdel{
+    max-height: 212px;
+    position: relative!important;
+}
+/*Второй новостной блок*/
+.mini-left-mini{
+    margin-top: 10px;
+    border: 1px solid #2d6747;
+}
+.mini-left-mini p{
+    padding: 10px 0px 10px 0px; 
+}
+.news_block_two_right img {
+    max-width: 44vw;
+    max-height: 75vh;
+}
+
+
+
+ .news_block_two_right a{
+     max-width: 50vh;
+    color: #2d6747!important;
+    padding: 6px;
+    display: block;
+    border: 1px solid #2d6747;
+    text-align: center;
+    height: 36px;
+    text-decoration: none!important;
+}
+
+.news_block_three{
+    padding: 100px 0px 100px 0px;
+}
+
+.news_three{
+    max-width: 555px;
+    height: 15vh;
+    opacity: 0.7;
+    background-color: #2d6747;
+    position: absolute;
+    bottom: 0;
+}
+.news_three h3{
+    padding-left: 10px;
+    color: white;
+}
+.news_three p{
+    padding-left: 10px;
+    color: white;
+    font-size: 19px;
+}
+/*Slider*/
+.slider{
+    padding: 50px 0px 50px 0px;
+}
+.slick-slide{
+    margin: 0px 10px 0px 10px;
+	width:auto !important;
+}
+.slick-prev:before {
+    content: '' !important;
+}
+.slick-next:before {
+    content: '' !important;
+}
+.slick-slide img {
+    display: inlne-block !important;
+    height: 15vh !important;
+	width:auto;
+}
+.slick-prev{
+    left: 5px!important;
+    top: 150px!important;
+    z-index: 9999;
+    background-repeat: no-repeat!important;
+    background-image: url(../img/left.png)!important;
+    width: 50px!important;
+    height: 140px!important;
+}
+.slick-next{
+    right: -15px!important;
+    top: 150px!important;
+    z-index: 9999;
+    background-repeat: no-repeat!important;
+    background-image: url(../img/right.png)!important;
+    width: 50px!important;
+    height: 140px!important;
+}
+
+
+
+
+.form{
+    margin-bottom: 100px;
+    background-color: #b9c4d3;
+}
+.form form{
+    padding: 45px 0px 45px 0px;
+}
+.form_ots{
+    margin-top: 40px;
+}
+.form input{
+    border: none;
+    width:100%;
+    padding-left: 20px;
+    height: 40px;
+}
+.form input[type=submit]{
+    border: none;
+    padding-left: 0px;
+    background-color: #2d6747;
+    width:100%;
+    color: white;
+    height: 40px;
+}
+
+
+
+
+.footer{
+    min-height: 30vh;
+    background-color: #2d6747;
+}
+.footer h4{
+   color: white;
+}
+
+
+.footer ul{
+    display: block;
+    float: right;
+    list-style: none;
+}
+.footer{
+    padding: 20px 0px 0px 0px;
+}
+.footer ul li{
+    padding: 0 3px;
+    display: inline-block;
+}
+.footer ul li a i{
+    color: white;
+    font-size: 26px;
+}
+
+
+/*menu*/
+@media (max-width:1000px) {
+        
+        .menu_top ul{
+            margin-top: 42px;
+        }
+        .menu_top ul li a{
+            font-size: 16px;
+        }
+        .menu_top img{
+            width: 150px;
+        }
+}
+
+@media (max-width:765px){
+    .news_block_three{
+        display: none;
+    }
+    .main_photo img{
+        width: 90vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Страница СНТК*/
+
+
+
+.sntk{
+    position: relative;
+    min-height: 74vh;
+    background-image: url(../img/banner_sntk.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.sntk h1{
+    
+    margin-top: 25vh;
+    font-size: 150px;
+    color: white;
+}
+.name_banner{
+    border-bottom: 1px solid white; 
+}
+.opis_banner{
+    padding-top: 40px;
+}
+.opis_banner p{
+    color: white;
+    font-size: 40px;
+}
+
+.navigate_left ul{
+    line-height: 50px;
+    font-size: 23px;
+    list-style: none;
+}
+.navigate_left ul li a:active {
+    color: #2d6747;  
+}
+
+.text_navigate p{
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.text_navigate h3{
+    padding-left: 50px;
+}
+
+.text_navigate ul{
+    list-style: none;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.partneri h2{
+    font-size: 40px;
+    color: #2d6747;
+}
+
+@media (max-width:1000px){
+    .text_navigate p{
+        font-size: 15px;
+    }
+    .navigate_left ul{
+        font-size: 15px;
+    }
+}
+@media (max-width:765px){
+    .opis_banner p {
+    color: white;
+    font-size: 31px;
+}
+    .sntk h1 {
+    margin-top: 5vh;
+    font-size: 53px;
+    color: white;
+    }
+}
+main p{
+    font-family: 'Tahoma';
+}
+main li{
+    font-family: 'Tahoma';
+}
+.main_photo img{
+    max-width: 50vw;
+}
+/*Страница СНТК201*/
+.sntk_201{
+    position: relative;
+    min-height: 74vh;
+    background-image: url(../img/sntk_2017.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.sntk_201 h1{
+    margin-top: 25vh;
+    font-size: 150px;
+    color: white;
+}
+
+.maps{
+    padding: 80px 0px 80px 0px;
+}
+
+/*Страница СНТО*/
+
+
+
+.snto{
+    position: relative;
+    min-height: 74vh;
+    background-image: url(../img/snto_banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.snto h1{
+    margin-top: 25vh;
+    font-size: 150px;
+    color: white;
+}
+.name_banner{
+    border-bottom: 1px solid white; 
+}
+.opis_banner{
+    padding-top: 40px;
+}
+.opis_banner p{
+    color: white;
+    font-size: 40px;
+}
+.zadachi_snto{
+    margin: 50px 0px 50px 0px;
+}
+.zadachi_snto h2{
+    padding: 40px 0px 40px 0px;
+}
+.zadachi_snto img{
+    width: 160px;
+    height: 160px;
+}
+.zadachi_snto p{
+    color: #236a4d;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.cel_snto p{
+    font-size: 26px;
+    color: #236a4d;
+}
+
+.advance_snto ul{
+    padding: 0;
+    margin-top: 30px;
+    list-style: none;
+}
+.advance_snto ul li{
+    padding: 15px 0px;
+    font-size: 18px;
+    color: #236a4d;
+}
+
+
+@media (max-width:765px){
+    .opis_banner p {
+    color: white;
+    font-size: 31px;
+}
+    .snto h1 {
+    margin-top: 5vh;
+    font-size: 53px;
+    color: white;
+    }
+}
+
+
+/*Store_project*/
+
+.store_zagolovok h1{
+    color: #236a4d!important;
+}
+.project{
+    padding-bottom: 100px;
+    position: relative;
+}
+.pro_block{
+    margin-top: 40px;
+}
+.opis_project{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    height: 15vh;
+    background-color: #236a4d;
+    opacity: 0.8;
+}
+.opis_project h4{
+    font-size: 25px;
+}
+.opis_project h3 {
+    font-size: 30px;
+    text-align: center;
+}
+.task_project p{
+    font-size: 18px;
+    padding-left: 20px;
+}
+.task_project h2{
+        font-weight: 600;
+    margin-top: 0px;
+    padding-left: 20px;
+}
+.task_project p span{
+    font-weight: 600;
+}
+.task_project a{
+    margin-left: 20px;
+    max-width: 20vh;
+    color: #2d6747!important;
+    padding: 6px;
+    display: block;
+    border: 1px solid #2d6747;
+    text-align: center;
+    height: 36px;
+    text-decoration: none!important;
+}
+
+.full_news img{
+    margin:0px 20px 30px 0px;
+    float: left;
+    width: 400px;
+}
+.full_news p{
+    font-size: 20px;
+}
+
+.top_news {
+        height: 100vh;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+    border-color: #e7e7e7;
+}
+@media (max-width:1000px){
+    .opis_project{
+    width: 92%;
+}
+}
+@media (max-width:765px){
+    .opis_project{
+    padding-top: 8%;
+    width: 100%;
+    position: relative;
+}
+    .opis_project h4,p{
+        font-size: 16px;
+        padding-left: 10px;
+}
+
+
+
+
+
+

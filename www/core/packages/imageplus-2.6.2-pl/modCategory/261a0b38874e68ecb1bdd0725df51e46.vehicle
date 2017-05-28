@@ -1,0 +1,232 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '3564d281e721c2a725707a731cb882cf' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"ImagePlus.demo","description":"Demo chunk for Image+ template variable output.","editor_type":0,"category":0,"cache_type":0,"snippet":"<div>\\n    <h3>Image+ Demo Chunk<\\/h3>\\n    <table>\\n        <thead>\\n        <tr>\\n            <th>Description<\\/th>\\n            <th>Current Value<\\/th>\\n        <\\/tr>\\n        <\\/thead>\\n        <tbody>\\n        <tr>\\n            <td>[[%imageplus.placeholder.url? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+url]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.alt? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+alt]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.width? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+width]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.height? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+height]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.source.src? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+source.src]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.source.width? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+source.width]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.source.height? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+source.height]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.crop.width? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+crop.width]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.crop.height? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+crop.height]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.crop.x? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+crop.x]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.crop.y? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+crop.y]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.options? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+options]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.crop.options? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+crop.options]]<\\/td>\\n        <\\/tr>\\n        <\\/tbody>\\n    <\\/table>\\n\\n    <h4>Default image output<\\/h4>\\n\\n    <div>\\n        <img src=\\"[[+url]]\\" alt=\\"[[+alt]]\\"\\/>\\n        [[+caption:notempty=`<p class=\\"caption\\">[[+caption]]<\\/p>`]]\\n        [[+credits:notempty=`<p class=\\"credits\\">[[+credits]]<\\/p>`]]\\n    <\\/div>\\n\\n    <h4>Responsive image output (different crops for different viewports)<\\/h4>\\n\\n    <p>\\n        <picture>\\n            <source media=\\"(min-width: 36em)\\"\\n                    srcset=\\"[[+source.src:pthumb=`w=1024`]] 1024w,\\n                        [[+source.src:pthumb=`w=640`]] 640w,\\n                        [[+source.src:pthumb=`w=320`]] 320w\\"\\n                    sizes=\\"33.3vw\\"\\/>\\n            <source srcset=\\"[[+source.src:pthumb=`[[+crop.options]]&w=640`]] 2x,\\n                        [[+source.src:pthumb=`[[+crop.options]]&w=320`]] 1x\\"\\/>\\n            <img src=\\"[[+url]]\\" alt=\\"[[+alt]]\\"\\/>\\n        <\\/picture>\\n    <\\/p>\\n    [[+caption:notempty=`<p class=\\"caption\\">[[+caption]]<\\/p>`]]\\n    [[+credits:notempty=`<p class=\\"credits\\">[[+credits]]<\\/p>`]]\\n<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div>\\n    <h3>Image+ Demo Chunk<\\/h3>\\n    <table>\\n        <thead>\\n        <tr>\\n            <th>Description<\\/th>\\n            <th>Current Value<\\/th>\\n        <\\/tr>\\n        <\\/thead>\\n        <tbody>\\n        <tr>\\n            <td>[[%imageplus.placeholder.url? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+url]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.alt? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+alt]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.width? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+width]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.height? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+height]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.source.src? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+source.src]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.source.width? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+source.width]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.source.height? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+source.height]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.crop.width? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+crop.width]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.crop.height? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+crop.height]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.crop.x? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+crop.x]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.crop.y? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+crop.y]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.options? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+options]]<\\/td>\\n        <\\/tr>\\n        <tr>\\n            <td>[[%imageplus.placeholder.crop.options? &namespace=`imageplus`]]<\\/td>\\n            <td>[[+crop.options]]<\\/td>\\n        <\\/tr>\\n        <\\/tbody>\\n    <\\/table>\\n\\n    <h4>Default image output<\\/h4>\\n\\n    <div>\\n        <img src=\\"[[+url]]\\" alt=\\"[[+alt]]\\"\\/>\\n        [[+caption:notempty=`<p class=\\"caption\\">[[+caption]]<\\/p>`]]\\n        [[+credits:notempty=`<p class=\\"credits\\">[[+credits]]<\\/p>`]]\\n    <\\/div>\\n\\n    <h4>Responsive image output (different crops for different viewports)<\\/h4>\\n\\n    <p>\\n        <picture>\\n            <source media=\\"(min-width: 36em)\\"\\n                    srcset=\\"[[+source.src:pthumb=`w=1024`]] 1024w,\\n                        [[+source.src:pthumb=`w=640`]] 640w,\\n                        [[+source.src:pthumb=`w=320`]] 320w\\"\\n                    sizes=\\"33.3vw\\"\\/>\\n            <source srcset=\\"[[+source.src:pthumb=`[[+crop.options]]&w=640`]] 2x,\\n                        [[+source.src:pthumb=`[[+crop.options]]&w=320`]] 1x\\"\\/>\\n            <img src=\\"[[+url]]\\" alt=\\"[[+alt]]\\"\\/>\\n        <\\/picture>\\n    <\\/p>\\n    [[+caption:notempty=`<p class=\\"caption\\">[[+caption]]<\\/p>`]]\\n    [[+credits:notempty=`<p class=\\"credits\\">[[+credits]]<\\/p>`]]\\n<\\/div>"}',
+        'guid' => 'e68ba72a0b742e9a1c864343c28aaef6',
+        'native_key' => NULL,
+        'signature' => 'f73ab7fe98a23cff44ad3ed25e0a0bc4',
+      ),
+      'b6bab7e8746dbcadb81f891622792e3a' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"ImagePlus.image","description":"Demo chunk for Image+ snippet output.","editor_type":0,"category":0,"cache_type":0,"snippet":"<img src=\\"[[+url]]\\" alt=\\"[[+alt]]\\"\\/>\\n[[+caption:notempty=`<p class=\\"caption\\">[[+caption]]<\\/p>`]]\\n[[+credits:notempty=`<p class=\\"credits\\">[[+credits]]<\\/p>`]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<img src=\\"[[+url]]\\" alt=\\"[[+alt]]\\"\\/>\\n[[+caption:notempty=`<p class=\\"caption\\">[[+caption]]<\\/p>`]]\\n[[+credits:notempty=`<p class=\\"credits\\">[[+credits]]<\\/p>`]]\\n"}',
+        'guid' => 'cb7e811b03f117d9c03622c401d90119',
+        'native_key' => NULL,
+        'signature' => 'abadd192ed1786db29ab6add43c1e369',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'aa800719fff48e2184091b8da0dd1893' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"ImagePlus","description":"Snippet as alternative to Image+ TV Output Type","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/**\\n * ImagePlus Snippet as alternative to Image+ TV Output Type\\n *\\n * Copyright 2013-2015 by Alan Pich <alan.pich@gmail.com>\\n * Copyright 2015-2017 by Thomas Jakobi <thomas.jakobi@partout.info>\\n *\\n * @package imageplus\\n * @subpackage snippet\\n *\\n * @author Alan Pich <alan.pich@gmail.com>\\n * @author Thomas Jakobi <thomas.jakobi@partout.info>\\n * @copyright Alan Pich 2013-2015\\n * @copyright Thomas Jakobi 2015-2017\\n *\\n * @var modX $modx\\n * @var array $scriptProperties\\n *\\/\\n\\n$corePath = $modx->getOption(\'imageplus.core_path\', null, $modx->getOption(\'core_path\') . \'components\\/imageplus\\/\');\\n$imageplus = $modx->getService(\'imageplus\', \'ImagePlus\', $corePath . \'model\\/imageplus\\/\', array(\\n    \'core_path\' => $corePath\\n));\\n\\n$tvname = $modx->getOption(\'tvname\', $scriptProperties, \'\', true);\\n$docid = $modx->getOption(\'docid\', $scriptProperties, $modx->resource->get(\'id\'), true);\\n$type = $modx->getOption(\'type\', $scriptProperties, \'\', true);\\n$options = $modx->getOption(\'options\', $scriptProperties, \'\', true);\\n$tpl = $modx->getOption(\'tpl\', $scriptProperties, \'ImagePlus.image\', true);\\n$value = $modx->getOption(\'value\', $scriptProperties, \'\', true);\\n$debug = $modx->getOption(\'debug\', $scriptProperties, $imageplus->getOption(\'debug\'), false);\\n\\nif ($value) {\\n    \\/\\/ Value is set by snippet property\\n    $data = json_decode($value);\\n    if (!$data) {\\n        if ($debug) {\\n            $modx->log(xPDO::LOG_LEVEL_ERROR, \'Unable to decode JSON in snippet property\', \'\', \'Image+\');\\n            return \'Unable to decode JSON in snippet property\';\\n        }\\n    }\\n    \\/\\/ No TV is used\\n    $tv = null;\\n} else {\\n    \\/\\/ Value is retreived from template variable\\n    $tv = $modx->getObject(\'modTemplateVar\', array(\'name\' => $tvname));\\n    if ($tv) {\\n        \\/\\/ Get the raw content of the TV\\n        $value = $tv->getValue($docid);\\n        $value = $tv->processBindings($value, $docid);\\n    } else {\\n        if ($debug) {\\n            $modx->log(xPDO::LOG_LEVEL_ERROR, \\"Template Variable \'{$tvname}\' not found.\\", \'\', \'Image+\');\\n            return \\"Template Variable \'{$tvname}\' not found.\\";\\n        }\\n    }\\n}\\n\\n$output = \'\';\\n\\/\\/ Render output\\nswitch ($type) {\\n    case \'check\':\\n        $data = json_decode($value);\\n        $output = ($data && $data->sourceImg->src) ? \'image\' : \'noimage\';\\n        break;\\n    case \'tpl\':\\n        $data = json_decode($value);\\n        $output = ($value) ? $imageplus->getImageURL($value, array_merge($scriptProperties, array(\\n            \'docid\' => $docid,\\n            \'phpThumbParams\' => $options,\\n            \'outputChunk\' => $tpl,\\n            \'caption\' => ($data && $data->caption) ? $data->caption : \'\',\\n            \'credits\' => ($data && $data->credits) ? $data->credits : \'\'\\n        )), $tv) : \'\';\\n        break;\\n    case \'thumb\':\\n    default:\\n        $output = ($value) ? $imageplus->getImageURL($value, array_merge($scriptProperties, array(\\n            \'docid\' => $docid,\\n            \'phpThumbParams\' => $options\\n        )), $tv) : \'\';\\n        break;\\n}\\nreturn $output;","locked":0,"properties":"a:6:{s:6:\\"tvname\\";a:7:{s:4:\\"name\\";s:6:\\"tvname\\";s:4:\\"desc\\";s:26:\\"imageplus.imageplus.tvname\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:20:\\"imageplus:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:5:\\"docid\\";a:7:{s:4:\\"name\\";s:5:\\"docid\\";s:4:\\"desc\\";s:25:\\"imageplus.imageplus.docid\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:20:\\"imageplus:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:4:\\"type\\";a:7:{s:4:\\"name\\";s:4:\\"type\\";s:4:\\"desc\\";s:24:\\"imageplus.imageplus.type\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:20:\\"imageplus:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:7:\\"options\\";a:7:{s:4:\\"name\\";s:7:\\"options\\";s:4:\\"desc\\";s:27:\\"imageplus.imageplus.options\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:20:\\"imageplus:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:3:\\"tpl\\";a:7:{s:4:\\"name\\";s:3:\\"tpl\\";s:4:\\"desc\\";s:23:\\"imageplus.imageplus.tpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:15:\\"ImagePlus.image\\";s:7:\\"lexicon\\";s:20:\\"imageplus:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:8:\\"fromJson\\";a:7:{s:4:\\"name\\";s:8:\\"fromJson\\";s:4:\\"desc\\";s:28:\\"imageplus.imageplus.fromJson\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";s:0:\\"\\";s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:20:\\"imageplus:properties\\";s:4:\\"area\\";s:0:\\"\\";}}","moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * ImagePlus Snippet as alternative to Image+ TV Output Type\\n *\\n * Copyright 2013-2015 by Alan Pich <alan.pich@gmail.com>\\n * Copyright 2015-2017 by Thomas Jakobi <thomas.jakobi@partout.info>\\n *\\n * @package imageplus\\n * @subpackage snippet\\n *\\n * @author Alan Pich <alan.pich@gmail.com>\\n * @author Thomas Jakobi <thomas.jakobi@partout.info>\\n * @copyright Alan Pich 2013-2015\\n * @copyright Thomas Jakobi 2015-2017\\n *\\n * @var modX $modx\\n * @var array $scriptProperties\\n *\\/\\n\\n$corePath = $modx->getOption(\'imageplus.core_path\', null, $modx->getOption(\'core_path\') . \'components\\/imageplus\\/\');\\n$imageplus = $modx->getService(\'imageplus\', \'ImagePlus\', $corePath . \'model\\/imageplus\\/\', array(\\n    \'core_path\' => $corePath\\n));\\n\\n$tvname = $modx->getOption(\'tvname\', $scriptProperties, \'\', true);\\n$docid = $modx->getOption(\'docid\', $scriptProperties, $modx->resource->get(\'id\'), true);\\n$type = $modx->getOption(\'type\', $scriptProperties, \'\', true);\\n$options = $modx->getOption(\'options\', $scriptProperties, \'\', true);\\n$tpl = $modx->getOption(\'tpl\', $scriptProperties, \'ImagePlus.image\', true);\\n$value = $modx->getOption(\'value\', $scriptProperties, \'\', true);\\n$debug = $modx->getOption(\'debug\', $scriptProperties, $imageplus->getOption(\'debug\'), false);\\n\\nif ($value) {\\n    \\/\\/ Value is set by snippet property\\n    $data = json_decode($value);\\n    if (!$data) {\\n        if ($debug) {\\n            $modx->log(xPDO::LOG_LEVEL_ERROR, \'Unable to decode JSON in snippet property\', \'\', \'Image+\');\\n            return \'Unable to decode JSON in snippet property\';\\n        }\\n    }\\n    \\/\\/ No TV is used\\n    $tv = null;\\n} else {\\n    \\/\\/ Value is retreived from template variable\\n    $tv = $modx->getObject(\'modTemplateVar\', array(\'name\' => $tvname));\\n    if ($tv) {\\n        \\/\\/ Get the raw content of the TV\\n        $value = $tv->getValue($docid);\\n        $value = $tv->processBindings($value, $docid);\\n    } else {\\n        if ($debug) {\\n            $modx->log(xPDO::LOG_LEVEL_ERROR, \\"Template Variable \'{$tvname}\' not found.\\", \'\', \'Image+\');\\n            return \\"Template Variable \'{$tvname}\' not found.\\";\\n        }\\n    }\\n}\\n\\n$output = \'\';\\n\\/\\/ Render output\\nswitch ($type) {\\n    case \'check\':\\n        $data = json_decode($value);\\n        $output = ($data && $data->sourceImg->src) ? \'image\' : \'noimage\';\\n        break;\\n    case \'tpl\':\\n        $data = json_decode($value);\\n        $output = ($value) ? $imageplus->getImageURL($value, array_merge($scriptProperties, array(\\n            \'docid\' => $docid,\\n            \'phpThumbParams\' => $options,\\n            \'outputChunk\' => $tpl,\\n            \'caption\' => ($data && $data->caption) ? $data->caption : \'\',\\n            \'credits\' => ($data && $data->credits) ? $data->credits : \'\'\\n        )), $tv) : \'\';\\n        break;\\n    case \'thumb\':\\n    default:\\n        $output = ($value) ? $imageplus->getImageURL($value, array_merge($scriptProperties, array(\\n            \'docid\' => $docid,\\n            \'phpThumbParams\' => $options\\n        )), $tv) : \'\';\\n        break;\\n}\\nreturn $output;"}',
+        'guid' => '1c756aa9a1f911234cbaf47013713d6b',
+        'native_key' => NULL,
+        'signature' => 'e0de255edfc53d520047175bddbb4c4e',
+      ),
+    ),
+    'Plugins' => 
+    array (
+      'fc35eca64ccb1280c3ff757c29824e15' => 
+      array (
+        'unique_key' => 'name',
+        'preserve_keys' => false,
+        'update_object' => true,
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            '5da1f06f3db6d276e7eb831c7bd61f0c' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnManagerPageBeforeRender","priority":0,"propertyset":0}',
+              'guid' => '0fcb35b118525977e148f28642ba31fd',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnManagerPageBeforeRender',
+              ),
+              'signature' => '714e48cdcbdf988ab84b5adc34104487',
+            ),
+            '76e196d061981e30ce2d6e36de7d70c8' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnTVInputPropertiesList","priority":0,"propertyset":0}',
+              'guid' => '4bb9cc90fcd58c4032ae254f095ada41',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnTVInputPropertiesList',
+              ),
+              'signature' => '76ca1c71d726662b4d5a1cfa5b240674',
+            ),
+            '41c62ebd4a5b49154cc8fd9954827a28' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnTVInputRenderList","priority":0,"propertyset":0}',
+              'guid' => '9b4fa974b6308f9fedabd82f8497341b',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnTVInputRenderList',
+              ),
+              'signature' => '1170bfba8d4d502acc90c57eee181d27',
+            ),
+            '5ea11d1d7385992a36e6be9774b00c02' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnTVOutputRenderList","priority":0,"propertyset":0}',
+              'guid' => '920ec2ac2934f7c820854586fe8866f4',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnTVOutputRenderList',
+              ),
+              'signature' => 'c523d01a754ea971ae93015e018d50fa',
+            ),
+            '12620172d6476bb3a8de6580fbbb7409' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnTVOutputRenderPropertiesList","priority":0,"propertyset":0}',
+              'guid' => '72be3c3591053e1c87dd20b2b74e96e4',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnTVOutputRenderPropertiesList',
+              ),
+              'signature' => 'f3bd6f6ce7dee0c7e26658663a35c2f6',
+            ),
+            '2a6da5524eb87c8bc8ca8bac11a03b0e' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnDocFormRender","priority":0,"propertyset":0}',
+              'guid' => '0e4503fb320cb11ede3e8290722338df',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnDocFormRender',
+              ),
+              'signature' => 'b05aea9740328efa1d3b99a6524cdec6',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'PluginEvents' => 
+          array (
+            'preserve_keys' => true,
+            'update_object' => false,
+            'unique_key' => 
+            array (
+              0 => 'pluginid',
+              1 => 'event',
+            ),
+          ),
+        ),
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"ImagePlus","description":"Image+ runtime hooks - registers custom TV input & output types and includes javascripts on document edit pages.","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * Image+ runtime hooks\\n * Registers custom TV input & output types and includes javascripts on document\\n * edit pages so that the TV can be used from within other extras (i.e. MIGX,\\n * Collections)\\n *\\n * Copyright 2013-2015 by Alan Pich <alan.pich@gmail.com>\\n * Copyright 2015-2017 by Thomas Jakobi <thomas.jakobi@partout.info>\\n *\\n * @package imageplus\\n * @subpackage plugin\\n *\\n * @author Alan Pich <alan.pich@gmail.com>\\n * @author Thomas Jakobi <thomas.jakobi@partout.info>\\n * @copyright Alan Pich 2013-2015\\n * @copyright Thomas Jakobi 2015-2017\\n *\\n * @event OnManagerPageBeforeRender\\n * @event OnTVInputRenderList\\n * @event OnTVOutputRenderList\\n * @event OnTVInputPropertiesList\\n * @event OnTVOutputRenderPropertiesList\\n * @event OnDocFormRender\\n *\\n * @var modX $modx\\n *\\/\\n\\n$corePath = $modx->getOption(\'imageplus.core_path\', null, $modx->getOption(\'core_path\') . \'components\\/imageplus\\/\');\\n$imageplus = $modx->getService(\'imageplus\', \'ImagePlus\', $corePath . \'model\\/imageplus\\/\', array(\\n    \'core_path\' => $corePath\\n));\\n\\nswitch ($modx->event->name) {\\n    case \'OnManagerPageBeforeRender\':\\n        $modx->controller->addLexiconTopic(\'imageplus:default\');\\n        $imageplus->includeScriptAssets();\\n        break;\\n    case \'OnTVInputRenderList\':\\n        $modx->event->output($corePath . \'elements\\/tv\\/input\\/\');\\n        break;\\n    case \'OnTVOutputRenderList\':\\n        $modx->event->output($corePath . \'elements\\/tv\\/output\\/\');\\n        break;\\n    case \'OnTVInputPropertiesList\':\\n        $modx->event->output($corePath . \'elements\\/tv\\/input\\/options\\/\');\\n        break;\\n    case \'OnTVOutputRenderPropertiesList\':\\n        $modx->event->output($corePath . \'elements\\/tv\\/output\\/options\\/\');\\n        break;\\n    case \'OnDocFormRender\':\\n        $imageplus->includeScriptAssets();\\n        break;\\n};","locked":0,"properties":"a:0:{}","disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * Image+ runtime hooks\\n * Registers custom TV input & output types and includes javascripts on document\\n * edit pages so that the TV can be used from within other extras (i.e. MIGX,\\n * Collections)\\n *\\n * Copyright 2013-2015 by Alan Pich <alan.pich@gmail.com>\\n * Copyright 2015-2017 by Thomas Jakobi <thomas.jakobi@partout.info>\\n *\\n * @package imageplus\\n * @subpackage plugin\\n *\\n * @author Alan Pich <alan.pich@gmail.com>\\n * @author Thomas Jakobi <thomas.jakobi@partout.info>\\n * @copyright Alan Pich 2013-2015\\n * @copyright Thomas Jakobi 2015-2017\\n *\\n * @event OnManagerPageBeforeRender\\n * @event OnTVInputRenderList\\n * @event OnTVOutputRenderList\\n * @event OnTVInputPropertiesList\\n * @event OnTVOutputRenderPropertiesList\\n * @event OnDocFormRender\\n *\\n * @var modX $modx\\n *\\/\\n\\n$corePath = $modx->getOption(\'imageplus.core_path\', null, $modx->getOption(\'core_path\') . \'components\\/imageplus\\/\');\\n$imageplus = $modx->getService(\'imageplus\', \'ImagePlus\', $corePath . \'model\\/imageplus\\/\', array(\\n    \'core_path\' => $corePath\\n));\\n\\nswitch ($modx->event->name) {\\n    case \'OnManagerPageBeforeRender\':\\n        $modx->controller->addLexiconTopic(\'imageplus:default\');\\n        $imageplus->includeScriptAssets();\\n        break;\\n    case \'OnTVInputRenderList\':\\n        $modx->event->output($corePath . \'elements\\/tv\\/input\\/\');\\n        break;\\n    case \'OnTVOutputRenderList\':\\n        $modx->event->output($corePath . \'elements\\/tv\\/output\\/\');\\n        break;\\n    case \'OnTVInputPropertiesList\':\\n        $modx->event->output($corePath . \'elements\\/tv\\/input\\/options\\/\');\\n        break;\\n    case \'OnTVOutputRenderPropertiesList\':\\n        $modx->event->output($corePath . \'elements\\/tv\\/output\\/options\\/\');\\n        break;\\n    case \'OnDocFormRender\':\\n        $imageplus->includeScriptAssets();\\n        break;\\n};"}',
+        'guid' => 'c9b4ea3f7bd2024f728afc29987056f2',
+        'native_key' => NULL,
+        'signature' => '8480b5485c06467f5bafdd09c78d19cd',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Children' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'parent',
+        1 => 'category',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'unique_key' => 'name',
+      'preserve_keys' => false,
+      'update_object' => true,
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PluginEvents' => 
+        array (
+          'preserve_keys' => true,
+          'update_object' => false,
+          'unique_key' => 
+          array (
+            0 => 'pluginid',
+            1 => 'event',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'namespace' => 'imageplus',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"imageplus-2.6.2-pl\\/modCategory\\/261a0b38874e68ecb1bdd0725df51e46\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"imageplus"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"imageplus-2.6.2-pl\\/modCategory\\/261a0b38874e68ecb1bdd0725df51e46\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"imageplus"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f5eb86d257a8f7b49a4e0b6b6eaba795',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '261a0b38874e68ecb1bdd0725df51e46',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"ImagePlus","rank":0}',
+);
