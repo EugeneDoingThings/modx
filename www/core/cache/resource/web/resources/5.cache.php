@@ -59,12 +59,12 @@
                   
                   <div class="col-md-3 col-sm-3 col-xs-12">
                         <h3>Случайные новости</h3>
-[[!getPage?
+<!--[[!getPage?
 &element=`getResources`
 &parents=`3,4` 
 &tpl=`articleTpl` 
 &limit=`3`
-&includeTVs=`1`]]                        
+&includeTVs=`1`]] -->                       
                         <div class="row">
 [[!getPage?
 &element=`getResources`
@@ -120,7 +120,7 @@
     'createdby' => 1,
     'createdon' => 1494162055,
     'editedby' => 1,
-    'editedon' => 1494285070,
+    'editedon' => 1496693607,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -224,12 +224,12 @@
                   
                   <div class="col-md-3 col-sm-3 col-xs-12">
                         <h3>Случайные новости</h3>
-[[!getPage?
+<!--[[!getPage?
 &element=`getResources`
 &parents=`3,4` 
 &tpl=`articleTpl` 
 &limit=`3`
-&includeTVs=`1`]]                        
+&includeTVs=`1`]] -->                       
                         <div class="row">
 [[!getPage?
 &element=`getResources`
@@ -451,9 +451,6 @@
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -968,9 +965,6 @@ return $output;',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -1100,9 +1094,6 @@ return $thumbnail->render();',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
